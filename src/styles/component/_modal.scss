@@ -1,0 +1,25 @@
+.modal {
+  width: 200px;
+  height: 200px;
+  background: $dark-blue;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  text-align: center;
+}
+
+.modal--text {
+  color: $white;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.modal--selected {
+  text-align: center;
+  color: $white;
+  font-weight: 500;
+  font-size: 2rem;
+}

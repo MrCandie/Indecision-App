@@ -1,0 +1,27 @@
+.form-container {
+  padding: 0 $m-size $m-size;
+}
+
+form {
+  display: block;
+  width: 100%;
+}
+
+input {
+  color: $off-white;
+  padding: $m-size 0;
+  background-color: $dark-blue;
+  width: 100%;
+  margin-bottom: $s-size;
+  border: none;
+  border-bottom: 0.3rem solid darken($color: $dark-blue, $amount: 10%);
+  outline: none;
+  text-align: center;
+}
+
+.error-message {
+  color: $off-white;
+  font-style: italic;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
